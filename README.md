@@ -1,6 +1,6 @@
 ##  ServiceStack.OrmLite.v3 AspNet Identity Provider  
 
-An AspNet Identity provider implementation for ServiceStack.OrmLite.v3 (last version was 3.9.71). This provider can be used with all RDBMS that has a OrmLite Dialect (about eight (8)).
+An AspNet Identity provider implemented with ServiceStack.OrmLite.v3 (last version was 3.9.71). This provider can be used with all RDBMS that has a OrmLite Dialect (about eight (8)).
 
 ## Installation
 
