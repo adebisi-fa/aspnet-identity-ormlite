@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<package >
+  <metadata>
+    <id>AspNet.Identity.OrmLite</id>
+    <version>1.0.0</version>
+    <title>AspNet.Identity.OrmLite</title>
+    <authors>Adebisi Foluso A.</authors>
+    <owners>Adebisi Foluso A.</owners>
+    <licenseUrl>https://github.com/adebisi-fa/servicestack-ormlite-aspnet-identity/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/adebisi-fa/servicestack-ormlite-aspnet-identity</projectUrl>
+    <iconUrl>https://altdstore.blob.core.windows.net/a2l/hilton.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>An AspNet Identity implementation for ServiceStack.OrmLite.v3 (version 3.9.71). This package can be used with all RDBMS that has a OrmLite Dialect.</description>
+    <releaseNotes>ASP.Net Identity v2 fully implemented for ServiceStack.ORMLite.v3</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>ServiceStack OrmLite AspNet Identity RDBMS SQLServer MySQL SQLite PostgreSQL Oracle Firebird Mono</tags>
+    <dependencies>
+      <dependency id="ServiceStack.OrmLite.SqlServer" version="[3.9.71]" />
+      <dependency id="Microsoft.AspNet.Identity.Core" version="[2.2.1]" />
+    </dependencies>
+  </metadata>
+</package>
