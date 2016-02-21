@@ -77,7 +77,7 @@
     <Compile Include="UserStore.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="nuget\hilton.nuspec" />
+    <None Include="nuget\aspnet.identity.ormlite.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,7 +93,7 @@
     <WebDownload Condition="!Exists('nuget.exe')" Filename="nuget.exe" FileUri="https://dist.nuget.org/win-x86-commandline/latest/nuget.exe" />
     <RemoveDir Directories="$(MSBuildProjectDirectory)\nuget\lib\net45\" />
     <Copy SourceFiles="$(MSBuildProjectDirectory)\bin\Release\$(AssemblyName).dll" DestinationFolder="$(MSBuildProjectDirectory)\nuget\lib\net45" />
-    <Exec Command="nuget pack .\nuget\hilton.nuspec">
+    <Exec Command="nuget pack .\nuget\aspnet.identity.ormlite.nuspec">
     </Exec>
   </Target>
 </Project>
