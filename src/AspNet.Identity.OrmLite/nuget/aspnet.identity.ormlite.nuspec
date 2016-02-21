@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/adebisi-fa/servicestack-ormlite-aspnet-identity</projectUrl>
     <iconUrl>https://altdstore.blob.core.windows.net/a2l/hilton.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>An AspNet Identity implementation for ServiceStack.OrmLite.v3 (version 3.9.71). This package can be used with all RDBMS that has a OrmLite Dialect.</description>
+    <description>An AspNet Identity provider implemented with ServiceStack.OrmLite.v3 (last version was 3.9.71). This provider can be used with all RDBMS that has a OrmLite Dialect.</description>
     <releaseNotes>ASP.Net Identity v2 fully implemented for ServiceStack.ORMLite.v3</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>ServiceStack OrmLite AspNet Identity RDBMS SQLServer MySQL SQLite PostgreSQL Oracle Firebird Mono</tags>
